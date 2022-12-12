@@ -1,0 +1,10 @@
+﻿FROM mcr.microsoft.com/dotnet/aspnet:7.0
+
+
+RUN mkdir /app
+WORKDIR /app
+COPY ./bin/Release/net7.0/publish .
+
+EXPOSE 4040
+ENV ASPNETCORE_URLS=http://+:4040
+ENTRYPOINT ["dotnet", "FlyApp.Server.dll"]
