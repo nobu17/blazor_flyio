@@ -2,7 +2,7 @@
 
 public class WeatherForecast
 {
-    public string Id { get; set; }
+    public string Id { get; set; } // add
 
     public DateOnly Date { get; set; }
 

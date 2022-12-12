@@ -29,7 +29,8 @@ else
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+// not needed for fly.io
+// app.UseHttpsRedirection();
 
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
