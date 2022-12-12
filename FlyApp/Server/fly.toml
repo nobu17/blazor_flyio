@@ -1,4 +1,4 @@
-# fly.toml file generated for flyblazor on 2022-12-11T20:38:29+09:00
+# fly.toml file generated for flyblazor on 2022-12-12T20:44:38+09:00
 
 app = "flyblazor"
 kill_signal = "SIGINT"
